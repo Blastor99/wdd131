@@ -3,11 +3,10 @@ const today = new Date();
 year.innerHTML = `<span class="highlight">${today.getFullYear()}</span>`;
 
 
-let lastModified = document.lastModified;
+const displayElement = document.getElementById("lastModified");
+displayElement.textContent = ${new Date().toDateString()}`;
 
-let displayElement = document.getElementById("lastModified");
 
-displayElement.textContent = ` ${lastModified}`;
 
 
 
