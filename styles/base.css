@@ -1,0 +1,255 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     
+}
+
+body {
+
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 3fr 1fr;
+    min-height: 100vh;
+
+}
+
+
+header {
+
+  
+    grid-column: 1 / 3;
+    background-color: #02182B;
+    color: #F9F9F9;
+    padding-top: 20px;
+    font-size:medium;
+    text-align: center;
+    font-family: 'Castoro Titling', serif;
+    
+
+}
+
+header h1,
+header h2{
+
+    display: inline;
+}
+
+header h2{
+
+    color: #d7263d;
+}
+
+.navigation {
+
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+    margin-top: 25px;
+    background-color: #d7263d;
+    padding: 20px;
+    width: 100%;
+    font-size: 1.1rem;
+    font-family: 'Playfair Display', serif;
+    border-bottom:1px solid #02182B;
+    
+
+}
+
+.navigation a:hover {
+
+    
+    text-decoration: underline #F9F9F9;
+    
+
+}
+
+.navigation li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-content {
+    background-color: white;
+    padding: 20px;
+    grid-column: 1 / 2;
+    
+}
+
+.aside-content {
+    background-color: #847f7f;
+    padding: 20px;
+    grid-column: 2 / 3;
+}
+
+footer {
+
+    grid-column: 1 / 3;
+    background-color: #02182B;
+    color: white;
+    padding-bottom: 100px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+.main-article{
+
+    display: grid;
+    grid-template: auto 1fr 1fr/ 2fr 1fr;
+    border: 1px solid #02182B;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.main-div{
+
+    background-color: #d7263d;
+    grid-column: 1/3;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    align-content: center;
+    color: white;
+    max-height: 100%;
+    font-size: large;
+    border-bottom: 1px solid #02182B;
+    padding: 1%;
+    font-family: 'Castoro Titling', serif;
+     
+}
+
+.biography{
+
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: justify;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    font-size: large;
+    line-height: 1.6;
+
+}
+
+.main-section h2{
+
+    grid-column: 1/3;
+    grid-row: 1/2;
+    margin-bottom: 5%;
+    border-bottom: 2px solid rgba(179, 179, 179, 0.303);
+    margin-left: 15%;
+    margin-right: 15%;
+    max-height: 8vh;
+    
+
+    
+}
+
+.main-section{
+
+    display: grid;
+    grid-template:  auto 1fr / 1fr auto
+}
+
+.city{
+
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 14%;
+    line-height: 1.6;
+    font-size: medium; 
+    align-content: start;
+    margin-bottom: 10%;
+    
+
+}
+
+.child{
+
+    
+    width: 16vw;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    border: 1px solid #02182B;
+
+}
+
+.flag{
+
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 10vw;
+    height: auto;
+    margin-left: 50%;
+    margin-top: 25%;
+       
+}
+
+.aside-content{
+
+    display: grid;
+    grid-template: 1fr / 1fr auto ;
+    border: 1px solid #02182B;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin: 5%;
+    padding-top:0 ;
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+
+.aside-title{
+
+    grid-column: 1/3;
+    background-color: #d7263d;
+    max-height: 7vh;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    align-content: center;
+    color: white;
+    border-bottom: 1px solid #02182B;
+    font-family: 'Castoro Titling', serif;
+    margin-bottom: 5%;
+    
+}
+
+.aside-list{
+
+    grid-row: 2/3;
+    line-height: 1.6;
+    padding-right: 5vw;
+    padding-left: 2vw;
+    margin: 5%;
+    margin-bottom: 75vh;
+    font-size: large;
+    font-family: 'Playfair Display', serif;
+    text-align: justify;
+}
+
+.last{
+
+    color:#d7263d;
+    padding: 1%;
+
+}
+
+
+
+
+
+
+
