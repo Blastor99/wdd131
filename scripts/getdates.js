@@ -3,7 +3,8 @@ const today = new Date();
 year.innerHTML = `<span class="highlight">${today.getFullYear()}</span>`;
 
 
-c
+const displayElement = document.getElementById("lastModified");
+displayElement.textContent = ` ${new Date().toDateString()}`;
 
 
 
