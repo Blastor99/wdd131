@@ -30,7 +30,7 @@ header {
 
 }
 
-header h1,
+header span,
 header h2{
 
     display: inline;
@@ -39,6 +39,12 @@ header h2{
 header h2{
 
     color: #d7263d;
+}
+
+header span{
+
+    font-size: x-large;
+
 }
 
 .navigation {
@@ -209,6 +215,7 @@ footer {
     padding-top:0 ;
     padding-left: 0;
     padding-right: 0;
+    margin-bottom: 6%;
     
 }
 
