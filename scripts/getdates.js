@@ -4,7 +4,7 @@ year.innerHTML = `<span class="highlight">${today.getFullYear()}</span>`;
 
 
 const displayElement = document.getElementById("lastModified");
-displayElement.textContent = ${new Date().toDateString()}`;
+displayElement.textContent = ` ${new Date().toDateString()}`;
 
 
 
