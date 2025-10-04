@@ -171,7 +171,7 @@ footer p {
         width: 50px;
         height: 50px;
         margin-right: 0.5rem;
-        background-image: url('/images/weather-svg.svg');
+        background-image: url('images/weather-svg.svg');
         background-size: cover;
         vertical-align:middle;
     }   
