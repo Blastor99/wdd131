@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My favorite place in the WORLD</title>
+    <meta name="author" content="Miguel Posada" />
+    <meta name="description" content="This page will show what's my favorite place in the entire world" />
+    <link href="/styles/place.css" rel="stylesheet" />
+    <script src="/scripts/place.js" defer></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1>NORWAY</h1>
+    </header>
+    
+<section class="hero">
+    <img src="/images/norway-hero-small.webp" srcset="
+      /images/norway-hero-small.webp 600w,
+      /images/norway-hero-medium.webp 768w,
+      /images/norway-hero-large.webp 1200w" sizes="(max-width: 600px) 100vw,
+           (max-width: 1200px) 100vw,
+           100vw" alt="Norway landscape">
+</section>
+
+
+    <main>
+        <section class="data-card">
+            <h2>Data</h2>
+            <ul>
+                <li><strong>Area:</strong> 385,207 sq km</li>
+                <li><strong>Population:</strong> ~5.4 million (2023)</li>
+                <li><strong>Capital:</strong> Oslo</li>
+                <li><strong>Languages:</strong> Norwegian (Bokmål and Nynorsk), Sami (in northern regions)</li>
+                <li><strong>Currency:</strong> Norwegian Krone (NOK)</li>
+                <li><strong>Time Zone:</strong> CET (UTC+1), CEST (UTC+2 in summer)</li>
+                <li><strong>Calling Code:</strong> +47</li>
+                <li><strong>Internet TLD:</strong> .no</li>
+            </ul>
+        </section>
+
+        <aside class="weather-card">
+            <h2>Weather</h2>
+            <ul>
+                <li id="temp">Temperature: 8°C</li>
+                <li>Conditions: Partly Cloudy</li>
+                <li id="wind">Wind: 12 km/h</li>
+                <li>Wind Chill: <span id="windchill"></span></li>
+        </aside>
+    </main>
+
+    <footer>
+        <p>©<span id="year"></span>👽Luis Miguel Gil Posada👽 Norway</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+
+
+
+</html>
