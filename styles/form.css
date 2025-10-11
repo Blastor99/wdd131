@@ -12,6 +12,7 @@
 
 * {
     box-sizing: border-box
+    
 }
 
 html,
@@ -24,7 +25,7 @@ body {
     font-family: Inter, "Segoe UI", "Helvetica Neue", Arial;
     background: linear-gradient(180deg, var(--bg), #fff);
     color: #805411;
-    margin: 1rem;
+    
 
 
 }
@@ -151,14 +152,6 @@ select {
     background-color: var(--accent-2);
 }
 
-footer {
-    max-width: 720px;
-    margin: 16px auto;
-    text-align: center;
-    color: var(--muted);
-    font-size: 0.9rem;
-    padding: 12px 8px;
-}
 
 .confirmation {
     text-align: center;
@@ -196,6 +189,19 @@ footer {
     text-decoration: none;
     font-weight: 700;
 }
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--accent);
+    color: #fff;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 12px 8px;
+}
+
 
 @media (max-width:520px) {
     .container {
